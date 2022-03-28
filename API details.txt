@@ -1,0 +1,32 @@
+API DETAILS : 
+
+LINK - 'https://saurav.tech/NewsAPI/top-headlines/category/health/in.json'
+        EVERITHING - https://saurav.tech/NewsAPI/everything/cnn.json
+
+NEWS :
+
+BBC News -	bbc-news
+CNN -  cnn
+Fox News - 	fox-news
+Google News	 - google-news
+
+
+COUNTRIES :
+
+🇮🇳 India	in
+🇺🇸 USA	us
+🇦🇺 Australia	au
+🇷🇺 Russia	ru
+🇫🇷 France	fr
+🇬🇧 United Kingdom	gb
+
+
+Available categories :
+
+business
+entertainment
+general
+health
+science
+sports
+technology

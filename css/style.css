@@ -1,0 +1,433 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* TEXT SELECTION :  */
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: blue;
+}
+
+::selection {
+  color: white;
+  background: rgb(87, 91, 92);
+}
+
+/* ...... */
+
+.main-nav {
+  display: flex;
+  max-width: 100vw;
+  text-transform: uppercase;
+}
+
+.nav-container-menu {
+  display: flex;
+  margin: auto;
+}
+
+.indoeffect-logo img {
+  width: 100%;
+  max-width: 10rem;
+  height: auto;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  padding: 0;
+  margin: auto;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #111;
+  font-size: 1.6875rem;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  color: #418fde;
+}
+
+/* Blue Nav */
+
+.blue-nav{
+    display: flex;
+    background-color: #418fde;
+    height: 45px;
+    max-width: 100vw;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.blue-nav-ul{
+    text-transform: uppercase;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 100px;
+}
+
+.blue-nav-ul li{
+    list-style: none;
+    padding: 10px;
+    border-right: 2px solid white;
+}
+
+.blue-nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.menu-nav{
+  float: right;
+}
+.menu-nav-ul{
+    display: flex;
+    min-width: 100%;
+    margin-right: 100px;
+}
+
+.menu-nav-ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.menu-nav-ul li a{
+  padding: 0 3px;
+}
+
+/* sidenav */
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #418fde;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.str-alert {
+  padding: 6px;
+  background-color: black;
+  color: white;
+  display: flex;
+  width: fit-content;
+  height: 100%;
+  padding: 0px 10px;
+}
+
+/* Alert : */
+
+.alert {
+  background-color: #ffc106;
+  height: 30px;
+  padding: 0px;
+  display: flex;
+}
+#live-news {
+  width: 90%;
+  padding: 0 30px 0px 0px;
+}
+
+/* ------------------------------------ */
+/* Section1 : */
+/* ------------------------------------ */
+
+.section1 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.section-breakingnews {
+  flex: 2.5;
+}
+
+.section-top-stories {
+  flex: 1.5;
+  max-height: 110vh;
+}
+
+.section-top-stories .accordian {
+  max-height: 100%
+}
+
+.section-top-stories h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 12px;
+}
+
+.topstories-searchbar button{
+  border-color: #418fde;
+  color: #418fde;
+}
+
+.topstories-searchbar button:hover{
+  background-color: #418fde;
+  border-color: #418fde;
+}
+
+.topstories-searchbar form{
+  display: flex;
+}
+
+.breakingnews-news1 img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.section-breakingnews .card-body {
+  text-decoration: none;
+  color: #111;
+  font-size: 29px;
+}
+
+/* .card-body a:hover {
+  color: rgb(21, 75, 250);
+} */
+
+.breakingnews-news2 {
+  display: flex;
+}
+
+#br_news2{
+  flex: 1.5;
+}
+
+#br_news3{
+  flex: 1.5;
+}
+
+.accordion{
+    max-width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+/* catagories */
+
+.catagories{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Balsamiq Sans', sans-serif;
+  background-color: #418fde;
+  padding: 3px 0px;
+}
+
+.catagories h2{
+  font-size: 44px;
+}
+/* Section - 2 */
+
+.section2_flexbox{
+  padding: 10px;
+  margin: 5px;
+}
+
+.section2_flexbox h2{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section2_flexbox img{
+  width: 100%;
+}
+
+.section2_img{
+  width: auto;
+  height: auto;
+}
+
+.section2_title{
+  border-bottom: 1px solid rgb(125, 150, 235);;
+  padding-bottom: 12px;
+}
+.section2_heading a{
+  text-decoration: none;
+}
+
+.section2_title a{
+  text-decoration: none;
+  color: black;
+}
+  
+
+/* EXPLORE */
+
+.imgovertxt {
+  text-align: center;
+  padding-top: 119px;
+  border: 2px solid black;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  height: 450px;
+  width: 75%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/brnews.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.imgovertxt h3 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.imgovertxt a {
+  background-color: black;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.imgovertxt a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#aboutus {
+  height: 300px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.aboutus h1 {
+  font-family: 'Reggae One', cursive;
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+.aboutustagline p {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-top: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+
+/* footer */
+footer{
+  background-color: rgb(15, 14, 14);
+}
+
+.footer_details{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.f_name a{
+  text-decoration: none;
+}
+
+.f_name h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+.f_icons{
+  display: flex;
+}
+
+
+.copyright{
+  color: whitesmoke;
+  text-align: center;
+  background-color: rgb(36, 32, 32);
+}
+
+/*  -- > f_icons */
+
+.fa-instagram{
+  color: #8a3ab9;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-youtube{
+  color: rgb(209, 49, 49)(250, 65, 65);
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-twitter{
+  color: blue;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-arrow-circle-up{
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
